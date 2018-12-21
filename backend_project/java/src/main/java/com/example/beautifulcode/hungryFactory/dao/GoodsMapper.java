@@ -5,6 +5,7 @@ import com.example.beautifulcode.hungryFactory.bean.Goods;
 
 public class GoodsMapper {
     public Goods selectByPrimaryKey(Integer goodId) {
-        return null;
+        Goods goods = new Goods();
+        return goods;
     }
 }

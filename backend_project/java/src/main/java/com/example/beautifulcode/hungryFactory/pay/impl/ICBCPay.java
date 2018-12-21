@@ -4,15 +4,9 @@ import com.example.beautifulcode.hungryFactory.bean.Channel;
 import com.example.beautifulcode.hungryFactory.bean.Goods;
 import com.example.beautifulcode.hungryFactory.dao.ChannelMapper;
 import com.example.beautifulcode.hungryFactory.dao.GoodsMapper;
-import com.example.beautifulcode.hungryFactory.pay.Context;
 import com.example.beautifulcode.hungryFactory.pay.Pay;
 import com.example.beautifulcode.hungryFactory.pay.Strategry;
-import org.springframework.beans.BeanUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import com.example.beautifulcode.hungryFactory.pay.util.BeanUtils;
 
 import javax.annotation.Resource;
 import java.math.BigDecimal;
@@ -27,11 +21,9 @@ public class ICBCPay extends BeanUtils implements Strategry {
 
     //1. 注入dao
     @Resource
-    @Autowired
     private ChannelMapper channelMapper;
 
     @Resource
-    @Autowired
     private GoodsMapper goodsMapper;
 
 

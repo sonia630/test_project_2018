@@ -5,7 +5,7 @@ import com.example.beautifulcode.hungryFactory.bean.Goods;
 
 public class ChannelMapper {
     public Channel selectByPrimaryKey(Integer channelId) {
-
-        return null;
+        Channel channel = new Channel();
+        return channel;
     }
 }
