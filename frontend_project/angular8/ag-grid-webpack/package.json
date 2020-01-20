@@ -1,0 +1,42 @@
+{
+  "name": "ag-grid-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ag-grid-community/all-modules": "^22.1.0",
+    "@ag-grid-community/angular": "^22.1.0",
+    "@angular/common": "^8.2.14",
+    "@angular/compiler": "^8.2.14",
+    "@angular/compiler-cli": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/platform-browser": "^8.2.14",
+    "@angular/platform-browser-dynamic": "^8.2.14",
+    "core-js": "^3.5.0",
+    "rxjs": "^6.5.3",
+    "typescript": "^3.7.3",
+    "zone.js": "^0.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.17",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^5.2.1",
+    "canonical-path": "^1.0.0",
+    "css-loader": "^3.3.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^5.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^4.0.0",
+    "style-loader": "^1.0.1",
+    "url-loader": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

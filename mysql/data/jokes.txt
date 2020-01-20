@@ -1,0 +1,4 @@
+"14”,”a string","100.20"
+"24”,”a string containing a , comma","102.20"
+"34”,”a string containing a \" quote","102.20"
+"44”,”a string containing a \", quote and comma","102.20"

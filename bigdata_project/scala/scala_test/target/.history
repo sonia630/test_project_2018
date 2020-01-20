@@ -1,0 +1,34 @@
+;set _root_.scala.collection.Seq(shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/private/var/folders/10/d_drx9rn4fqgz0791qcqq2c40000gn/T/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/Users/yongtali/Library/Application Support/IntelliJIdea2017.3/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+exit
+all {file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/products {file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/test:products
+;project {file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test; tasks
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/bgRun
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/run
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/runMain
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/run
+show {file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/run
+inspect {file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/run
+show {file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/runMain
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/runMain
+show {file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/runMain
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/run
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/runMain
+all {file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/products {file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/test:products
+hello()
+hello
+scala hello
+runMain
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/run
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/runMain
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/run
+run
+run aa
+runMain aaaccc
+run aacc
+run cc
+{file:/Users/yongtali/Project/test_project/bigdata_project/scala_test/}scala_test/run
+run cc
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/10/d_drx9rn4fqgz0791qcqq2c40000gn/T/sbt-structure.xml; session clear-all
+all {file:/Users/yongtali/Project/test_project/bigdata_project/scala/scala_test/}scala_test/products {file:/Users/yongtali/Project/test_project/bigdata_project/scala/scala_test/}scala_test/test:products
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/10/d_drx9rn4fqgz0791qcqq2c40000gn/T/sbt-structure.xml; session clear-all
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/10/d_drx9rn4fqgz0791qcqq2c40000gn/T/sbt-structure1.xml; session clear-all
