@@ -11,7 +11,7 @@
     <properties>
         <java.version>1.8</java.version>
         <spark.version>2.3.0</spark.version>
-        <springframework.version>4.1.5.RELEASE</springframework.version>
+        <springframework.version>5.3.18</springframework.version>
     </properties>
 
     <dependencies>
